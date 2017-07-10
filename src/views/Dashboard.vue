@@ -1,6 +1,6 @@
 <template>
 	<section>
-		main
+		这里是Dashboard，后台管理的的主页
 	</section>
 </template>
 

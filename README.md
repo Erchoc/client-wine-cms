@@ -1,8 +1,10 @@
-**在线演示网址**: [taylorchen709.github.io/vue-admin](https://taylorchen709.github.io/vue-admin)
+**在线演示网址**: [erchoc.github.io/vue-admin](https://erchoc.github.io/vue-admin)
 
 # 如何使用
 
-该项目使用基于脚手架 [vue-cli](https://github.com/vuejs/vue-cli)
+- 需要配合[后端API](https://github.com/Erchoc/tp5-wine-api)和[客户端小程序](https://github.com/Erchoc/client-wine-cms)作界面显示。
+
+- 该项目使用基于vue官方脚手架, 请先使用npm安装 [vue-cli](https://github.com/vuejs/vue-cli)
 
 ``` bash
 # 安装依赖包
@@ -15,23 +17,15 @@ npm run dev
 npm run build
 ```
 
-# 目录结构说明
-* build - webpack config files
-* config - webpack config files
-* dist - build
-* src -your app
-    * api
-    * assets
-    * common
-    * components - your vue components
-    * mock
-    * styles
-    * views - your pages
-    * vuex
-    * App.vue
-    * main.js - main file
-    * routes.js
-* static - static assets
+# 技术栈和第三方组件
+
+- "element-ui": "^1.2.8",
+- "font-awesome": "^4.7.0",
+- "nprogress": "^0.2.0",
+- "vue": "^2.2.2",
+- "vue-router": "^2.3.0",
+- "axios": "^0.15.3",
+- "vuex": "^2.0.0-rc.6"
 
 # 主题样式修改
 1. 下载主题包 [elementui.github.io/theme-preview](https://elementui.github.io/theme-preview)
@@ -45,7 +39,6 @@ npm run build
 4. 编辑修改 src/styles/vars.scss
 
 ![theme-blue](https://raw.githubusercontent.com/taylorchen709/markdown-images/master/vueadmin/rec-demo.gif)
-![theme-green](https://raw.githubusercontent.com/taylorchen709/markdown-images/master/vueadmin/theme-green.png)
 
 
 # License
