@@ -1,11 +1,20 @@
 import Login from './views/Login.vue'
 import NotFound from './views/404.vue'
 import Home from './views/Home.vue'
+
 import Dashboard from './views/Dashboard.vue'
+import Users from './views/users/users.vue'
+import Categories from './views/categories/categories.vue'
+import Products from './views/products/products.vue'
+import Orders from './views/orders/orders.vue'
+import Website from './views/website/website.vue'
+import Wechat from './views/wechat/wechat.vue'
 
 import Table from './views/nav1/Table.vue'
 import Form from './views/nav1/Form.vue'
-import user from './views/nav1/user.vue'
+import User from './views/nav1/user.vue'
+
+
 
 let routes = [
     {
@@ -36,65 +45,65 @@ let routes = [
         name: '用户管理',
         iconCls: 'fa fa-users',
         children: [
-            { path: '/users', component: Dashboard, name: '用户管理'}
+            { path: '/users', component: Users, name: '用户管理'}
         ]
     },
     {
         path: '/',
         component: Home,
         name: '分类管理',
-        iconCls: 'fa fa-categ',
+        iconCls: 'fa fa-folder-open',
         children: [
-            { path: '/categories', component: Dashboard, name: '分类管理'}
+            { path: '/categories', component: Categories, name: '分类管理'}
         ]
     },
     {
         path: '/',
         component: Home,
         name: '商品管理',
-        iconCls: 'fa fa-dashboard',
+        iconCls: 'fa fa-cubes',
         children: [
-            { path: '/products', component: Dashboard, name: '商品管理'}
+            { path: '/products', component: Products, name: '商品管理'}
         ]
     },
     {
         path: '/',
         component: Home,
         name: '订单管理',
-        iconCls: 'fa fa-dashboard',
+        iconCls: 'fa fa-list',
         children: [
-            { path: '/orders', component: Dashboard, name: '订单管理'}
+            { path: '/orders', component: Orders, name: '订单管理'}
         ]
     },
     {
         path: '/',
         component: Home,
         name: '企业网站',
-        iconCls: 'fa fa-dashboard',
+        iconCls: 'fa fa-globe',
         children: [
-            { path: '/web-config', component: Dashboard, name: '配置信息'},
-            { path: '/web-news', component: Dashboard, name: '新闻发布'},
+            { path: '/web-config', component: Website, name: '配置信息'},
+            { path: '/web-news', component: Website, name: '新闻发布'},
         ]
     },
     {
         path: '/',
         component: Home,
         name: '公众号运营',
-        iconCls: 'fa fa-dashboard',
+        iconCls: 'fa fa-wechat',
         children: [
-            { path: '/wx-config', component: Dashboard, name: '配置信息'},
-            { path: '/wx-news', component: Dashboard, name: '新闻发布'},
+            { path: '/wx-config', component: Wechat, name: '配置信息'},
+            { path: '/wx-news', component: Wechat, name: '新闻发布'},
         ]
     },
     {
         path: '/',
         component: Home,
         name: '示例UI组件',
-        iconCls: 'fa fa-dashboard',
+        iconCls: '',
         children: [
             { path: '/table',component:Table, name: '表格' },
             { path: '/form', component: Form, name: '表单' },
-            { path: '/user', component: user, name: '列表' },
+            { path: '/user', component: User, name: '列表' },
         ]
     },
 

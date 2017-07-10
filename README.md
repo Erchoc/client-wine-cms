@@ -2,7 +2,7 @@
 
 # 如何使用
 
-- 需要配合[后端API](https://github.com/Erchoc/tp5-wine-api)和[客户端小程序](https://github.com/Erchoc/client-wine-cms)作界面显示。
+- 需要配合[后端API](https://github.com/Erchoc/tp5-wine-api)和[客户端小程序](https://github.com/Erchoc/client-wine-cms)作界面显示。
 
 - 该项目使用基于vue官方脚手架, 请先使用npm安装 [vue-cli](https://github.com/vuejs/vue-cli)
 
