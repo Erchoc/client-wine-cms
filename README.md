@@ -17,7 +17,7 @@ npm run dev
 npm run build
 ```
 
-# 技术栈和第三方组件
+# 技术栈和第三方组件
 
 - "element-ui": "^1.2.8",
 - "font-awesome": "^4.7.0",
@@ -29,7 +29,7 @@ npm run build
 
 # 主题样式修改
 1. 下载主题包 [elementui.github.io/theme-preview](https://elementui.github.io/theme-preview)
-2. 将主题包放在此目录下 src/assets/theme/
+2. 将主题包放在此目录下 src/assets/theme/
 3. 编辑修改 src/main.js 
 ``` bash
    import 'element-ui/lib/theme-default/index.css'
